@@ -1,0 +1,99 @@
+.slider-img-width {
+    width: 100%;
+   height: 400px;
+}
+
+.app-title {
+    margin-left: 31px;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+.navigation {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+}
+
+.slider {
+    margin-top: 56px;
+    background-color: #63a4ff;
+    background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+}
+
+.banner-font {
+    color: #fff;
+    .desc {
+        padding: 10% 10% 10% 10%;
+        text-align: center;
+    }
+}
+
+.product {
+    margin-top: 13px
+}
+
+.shopNow-btn {
+    color: #fff;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 21px;
+    padding: 8px 23px 8px 23px;
+    margin-top: 1em;
+    &:hover {
+        background: #fff;
+        color: #000;
+    }
+}
+
+.menu-toggle-btn {
+    margin-right: 12px;
+}
+
+.footer {
+    height: 31px;
+    margin-top: 7px;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+    padding: 4px;
+    .copyright {
+        position: absolute;
+        right: 3em;
+    }
+}
+
+.carousel-inner {
+    height: 248px !important;
+}
+.carousel-item {
+    background-color: #7f5a83;
+background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+}
+.desc-font {
+    font-size: 2em;
+}
+
+.desktop {
+    display: block;
+}
+
+.responsive {
+    display: none;
+}
+
+@media only screen and (max-width: 728px) {
+    .slider-img-width {
+        width: 100%;
+       height: 246px;
+    }
+    .desc-font {
+        font-size: 1em;
+    }
+    .desktop {
+        display: none;
+    }
+    
+    .responsive {
+        display: block;
+    }
+}

@@ -1,0 +1,27 @@
+<ng-container>
+    <div class="container-fluid login">
+        <h1>Login Form</h1>
+        <h5>Login here using Email and Password</h5>
+        <div>
+            <form>
+                <div class="input-margin">
+                    <i class="fa fa-user icon">
+                    </i>
+                    <input class="input-box" matInput placeholder="your email" [(ngModel)]="email" type="email"
+                        name="email" required>
+                </div>
+                <div>
+                    <input class="input-box" matInput placeholder="your password" [(ngModel)]="password" type="password"
+                        name="password" required>
+                </div>
+                <div class="row remember-margin">
+                   <div class="col remember"><input type="checkbox" id="remember" name="remember">Remember me</div>
+                   <div class="col forgot">Forgot Passowrd</div>
+                </div>
+                <div>
+                    <button class="login-btn">Login</button>
+                    </div>
+            </form>
+        </div>
+    </div>
+</ng-container>
