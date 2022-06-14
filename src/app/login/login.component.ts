@@ -14,20 +14,12 @@ export class LoginComponent implements OnInit {
 
 
   constructor(private  dialog:  MatDialog) { }
+
   ngOnInit(): void {
     throw new Error('Method not implemented.');
   }
-  login(){
-      if(this.email  ===  "email@email.com"  &&  this.password  === "p@ssw0rd")
-      {
-          //this.router.navigate(['success']);
-      }
-      else
-      {
-          // this.dialog.open(MessageComponent,{ data: {
-          // message:  "Error!!!"
-          // }});
-      }
+  login() {
+     
   }
 
 }

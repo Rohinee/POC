@@ -45,16 +45,16 @@
   </div>
   <div class="product">
   <div class="row">
-    <div class="col mb-1 desktop" *ngFor="let data of data">
+    <div class="col mb-1 desktop" *ngFor="let data of productData">
       <app-fashion-card [productInfo]="data"></app-fashion-card>
     </div>
-    <div class="col-12 mb-1 mobile" *ngFor="let data of data">
+    <div class="col-12 mb-1 responsive" *ngFor="let data of productData">
       <app-fashion-card [productInfo]="data"></app-fashion-card>
     </div>
   </div>
   </div>
   <footer class="footer">
     <span>In Case of any concern, <a>Contact Us</a></span>
-    <span class="copyright">© 2022 www.fashion.com. All rights reserved</span>
+    <span class="copyright">© 2022 www.fashionIsta.com. All rights reserved</span>
   </footer>
 </div>

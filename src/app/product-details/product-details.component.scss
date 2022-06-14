@@ -1,0 +1,26 @@
+
+.card-shadow {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+    width: 18rem;
+    text-align: center;
+}
+
+.add-btn {
+    border: none;
+    background: #63a4ff;
+    background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+    padding: 0.6em 1em 0.6em 1em;
+    border-radius: 16px;
+    color: white;
+}
+
+@media only screen and (max-width: 728px) {
+   
+    .card-shadow {
+        width: 95%;
+    }
+    .card-img-top{
+        width: 54%;
+    }
+}
+

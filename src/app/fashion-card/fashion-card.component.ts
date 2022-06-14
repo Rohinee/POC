@@ -1,4 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { ProductDetailsComponent } from '../product-details/product-details.component';
+import {MatDialog, MAT_DIALOG_DATA} from '@angular/material/dialog';
 
 @Component({
   selector: 'app-fashion-card',
@@ -9,10 +11,17 @@ export class FashionCardComponent implements OnInit {
 
   @Input() productInfo: any;
 
-  constructor() { }
+  constructor( public dialog: MatDialog) { }
 
   ngOnInit(): void {
-    console.log(this.productInfo);
+  }
+
+  view() {
+    let dialogRef = this.dialog.open(ProductDetailsComponent, {
+      data: {
+        productData: this.productInfo
+      }
+    });
   }
 
 }

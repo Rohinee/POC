@@ -1,0 +1,83 @@
+{
+    "data": {
+        "sliderImage": [
+            {
+                "title": "Upto 20% OFF",
+                "short": "Complementary gifts on BestSeller products",
+                "src": "../../assets/PngItem_3841893.png"
+            },
+            {
+                "title": "Upto 50% OFF",
+                "short": "On screen care Products",
+                "src": "../../assets/PngItem_1606911.png"
+            },
+            {
+                "title": "Upto 30% OFF",
+                "short": "On BestSeller Hygine products",
+                "src": "../../assets/PngItem_3535466.png"
+            }
+        ],
+        "productInfo" : [
+            { 
+                "productName": "Earth Rhythm Phyto Shield",
+                "desc": "Earth Rhythm Phyto Shield - Spf 50 Matte Mineral Sunscreen",
+                "price": "Rs. 473",
+                "img": "../../assets/f56f7b7SCN005.png"
+              },
+              {
+                "productName": "Earth Rhythm Lip",
+                "desc": "Earth Rhythm Lip & Cheek Tint (Mermaid)(5gm)",
+                "price": "Rs. 349",
+                "img": "../../assets/a436c1eNYKEYM0000044_1.png"
+              },
+              {
+                "productName": "Minimalist 2% Salicylic Acid",
+                "desc": "Minimalist 2% Salicylic Acid + Lha Cleanser Reduces Sebum",
+                "price": "Rs. 299",
+                "img": "../../assets/81fe46bMINIM00000019_2.png"
+              },
+              {
+                "productName": "Simple Face Wash",
+                "desc": "Simple Kind To Skin Refreshing Facial Wash",
+                "price": "Rs. 338",
+                "img": "../../assets/62ec67727278_h1_8901030773563.png"
+              },
+              {
+                "productName": "Mamaearth Face Wash",
+                "desc": "Mamaearth Ubtan Face Wash With Turmeric & Saffron",
+                "price": "Rs. 249",
+                "img": "../../assets/a6bf37c8906087770671aw__1_.png"
+              },
+              {
+                "productName": "Earth Rhythm Moisturiser",
+                "desc": "Earth Rhythm Phyto Repair Vitamin C + Matrixyl 3000 Advanced",
+                "price": "Rs. 524",
+                "img": "../../assets/582590fearaa00000014_r1.png"
+              },
+              {
+                "productName": "Earth Rhythm Serum",
+                "desc": "Earth Rhythm Clear Skin Ultimate Glow Serum",
+                "price": "Rs. 1427",
+                "img": "../../assets/df73c1eNYKEYM0000016_1.png"
+              },
+              {
+                "productName": "Earth Rhythm sunscreen",
+                "desc": "Earth Rhythm Ultra Defence Hybrid Sun Fluid - SPF 50",
+                "price": "Rs. 1000",
+                "img": "../../assets/2a51c1eNYKEYM0000029_1.png"
+              },
+              {
+                "productName": "Earth Rhythm Lip tint",
+                "desc": "Earth Rhythm Tinted Lippie Puck It Lip Balm - Lady Bug",
+                "price": "Rs. 200",
+                "img": "../../assets/0f04c1eEARAA00000002_1.png"
+              },
+              {
+                "productName": "Earth Rhythm Phyto Gel",
+                "desc": "Earth Rhythm Phyto Gel with Centella Asiatica Sage Extract",
+                "price": "Rs. 599",
+                "img": "../../assets/d8bf90fnykeym0000015_r1.png"
+              }
+        ]
+    }
+}
