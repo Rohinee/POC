@@ -1,5 +1,5 @@
 <ng-container>
-    <div class="card card-shadow desktop">
+    <div class="card card-shadow">
         <img class="card-img-top" [src]="productInfo.img" alt="Card image cap">
         <div class="card-body">
             <h5 class="card-title">{{productInfo.productName}}</h5>
@@ -7,22 +7,4 @@
             <button class="add-btn" (click)="view()">View</button>
         </div>
     </div>
-
-    <div class="card card-shadow responsive">
-       
-        <div class="card-body">
-            <div class="row">
-                <div class="col">
-                    <h5 class="card-title">{{productInfo.productName}}</h5>
-                    <p class="card-text">{{productInfo.desc}}</p>
-                    <button class="add-btn" (click)="view()">View</button>
-                </div>
-                <div class="col">
-                    <img class="card-img-top" [src]="productInfo.img" alt="Card image cap">
-                </div>
-            </div>
-         
-        </div>
-    </div>
-
 </ng-container>

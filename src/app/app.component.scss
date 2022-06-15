@@ -18,8 +18,8 @@
 
 .slider {
     margin-top: 56px;
-    background-color: #63a4ff;
-    background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+    background-color: #fc9842;
+    background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%);
 }
 
 .banner-font {
@@ -73,14 +73,15 @@ background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
     font-size: 2em;
 }
 
-.desktop {
-    display: block;
-}
-
-.responsive {
-    display: none;
-}
-
+.flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .column {
+    margin-bottom: 3px;
+  }
+ 
 @media only screen and (max-width: 728px) {
     .slider-img-width {
         width: 100%;
@@ -89,11 +90,8 @@ background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
     .desc-font {
         font-size: 1em;
     }
-    .desktop {
-        display: none;
-    }
-    
-    .responsive {
-        display: block;
-    }
+
+    .column {
+        flex: auto;
+      }
 }

@@ -25,7 +25,7 @@
       " (click)="openLoginForm()">Login</button>
         </li>
       </ul>
-    </div>  
+    </div>
   </nav>
   <div class="slider">
     <ngb-carousel>
@@ -38,23 +38,19 @@
               <div> <button class="shopNow-btn">Shop Now</button></div>
             </div>
             <div class="col"> <img class="slider-img-width" [src]="image.src" alt="Random first slide"></div>
-            </div>
+          </div>
         </div>
       </ng-template>
     </ngb-carousel>
   </div>
   <div class="product">
-  <div class="row">
-    <div class="col mb-1 desktop" *ngFor="let data of productData">
-      <app-fashion-card [productInfo]="data"></app-fashion-card>
+    <div class="flex-grid">
+      <div class="column" *ngFor="let data of productData">
+        <app-fashion-card [productInfo]="data"></app-fashion-card>
+      </div>
     </div>
-    <div class="col-12 mb-1 responsive" *ngFor="let data of productData">
-      <app-fashion-card [productInfo]="data"></app-fashion-card>
-    </div>
+    <footer class="footer">
+      <span>In Case of any concern, <a>Contact Us</a></span>
+      <span class="copyright">© 2022 www.fashionIsta.com. All rights reserved</span>
+    </footer>
   </div>
-  </div>
-  <footer class="footer">
-    <span>In Case of any concern, <a>Contact Us</a></span>
-    <span class="copyright">© 2022 www.fashionIsta.com. All rights reserved</span>
-  </footer>
-</div>
